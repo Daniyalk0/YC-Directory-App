@@ -29,7 +29,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "easymde": "^2.14.0",
-    "lucide-react": "^0.475.0",
+    "lucide-react": "^0.469.0",
     "markdown-it": "^14.1.0",
     "next": "^15.2.0-canary.64",
     "next-auth": "^5.0.0-beta.25",
