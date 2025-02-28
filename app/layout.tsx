@@ -19,47 +19,47 @@ const geistMono = Geist_Mono({
 const workSans = localFont({
   src:[
     {
-      path:'/fonts/workSans-Black.ttf',
+      path:'./fonts/workSans-Black.ttf',
       weight:'900',
       style:'normal'
     },
     {
-      path:'/fonts/workSans-ExtraBold.ttf',
+      path:'./fonts/workSans-ExtraBold.ttf',
       weight:'800',
       style:'normal'
     },
     {
-      path:'/fonts/workSans-Bold.ttf',
+      path:'./fonts/workSans-Bold.ttf',
       weight:'700',
       style:'normal'
     },
     {
-      path:'/fonts/workSans-SemiBold.ttf',
+      path:'./fonts/workSans-SemiBold.ttf',
       weight:'600',
       style:'normal'
     },
     {
-      path:'/fonts/workSans-Medium.ttf',
+      path:'./fonts/workSans-Medium.ttf',
       weight:'500',
       style:'normal'
     },
     {
-      path:'/fonts/workSans-Regular.ttf',
+      path:'./fonts/workSans-Regular.ttf',
       weight:'400',
       style:'normal'
     },
     {
-      path:'/fonts/workSans-Black.ttf',
+      path:'./fonts/workSans-Black.ttf',
       weight:'900',
       style:'normal'
     },
     {
-      path:'/fonts/workSans-Thin.ttf',
+      path:'./fonts/workSans-Thin.ttf',
       weight:'200',
       style:'normal'
     },
     {
-      path:'/fonts/workSans-ExtraLight.ttf',
+      path:'./fonts/workSans-ExtraLight.ttf',
       weight:'100',
       style:'normal'
     },
