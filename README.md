@@ -72,8 +72,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/JavaScript-Mastery-Pro/pitchify.git
-cd pitchify
+git clone https://github.com/Daniyalk0/YC-Directory-App.git
+cd YC-Directory-App
 ```
 
 **Installation**
