@@ -13,7 +13,9 @@
 
   </div>
 
+
 <h3 align="center">Startup Directory Platform</h3>
+</div>
 
 ## <a name="introduction">🤖 Introduction</a>
 
