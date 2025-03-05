@@ -11,6 +11,10 @@
 }
 
 @layer utilities {
+
+    .nav-items{
+        @apply font-work-sans font-bold
+    }
     .flex-between {
         @apply flex justify-between items-center;
     }

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { auth, signOut, signIn } from "@/auth";
-import { BadgePlus, LogOut } from "lucide-react";
+import { BadgePlus, House, LogOut } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Navbar = async () => {
@@ -9,14 +9,18 @@ const Navbar = async () => {
 
   return (
     <header className="px-5 py-3 bg-white shadow-sm font-work-sans">
-      <nav className="flex justify-between items-center">
+      <nav className="flex justify-between items-center nav-items">
         <Link href="/">
           <Image src="/logo.png" alt="logo" width={144} height={30} />
         </Link>
 
-        <div className="flex items-center gap-5 text-black">
+        <div className="flex items-center gap-5 text-black nav-items">
           {session && session?.user ? (
             <>
+              <Link href="/">
+                <span className="max-sm:hidden ">Home</span>
+                <House className="size-6 sm:hidden" />
+              </Link>
               <Link href="/startup/create">
                 <span className="max-sm:hidden">Create</span>
                 <BadgePlus className="size-6 sm:hidden" />
